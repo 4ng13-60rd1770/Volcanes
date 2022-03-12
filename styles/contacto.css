@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Urbanist:wght@100&display=swap');
+
+body {
+    background-color:coral;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 25px;;
+    background-color: #0e0e0e;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+
+}
+
+nav ul li a:hover{
+  font-size: 32px;
+  border-bottom: 2px solid red;
+
+}
+
+.contact_form{
+    width: 460px; 
+ 
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+
+    }
+
+    input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: coral; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    }
+    
+    
+    textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: coral; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    }
+    
+    
+    label{
+
+    float: center; 
+    }
+    
+    
+    button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-bottom: 20px; 
+    margin-top: 10px; 
+    text-transform: uppercase;
+    background-color: coral; 
+    border-color: coral; 
+    border-style: solid; 
+    border-radius: 10px;
+    width: 420px;   
+    cursor: pointer;
+    }
+    
+    
+    button p{
+    color: #fff; 
+    }
+    
+    
+    span{
+    color: coral; 
+    }
+    
+    
+    .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+    }
+    
+    
+    h1{
+    font-size: 39px;  
+    text-align: letf; 
+    color: red;
+
+    }
+    
+    
+    h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;  
+   
+    }
+    
+    
+    p{
+    font-size: 14px;
+    color: #0e0e0e; 
+    }
+
